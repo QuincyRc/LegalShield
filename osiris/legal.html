@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Legal Shield | Lic. Osiris Rodas</title>
+
+  <style>
+    :root {
+      --azul: #132b3a;
+      --azul-oscuro: #081722;
+      --gris: #f2f4f5;
+      --blanco: #ffffff;
+      --dorado: #c9a24d;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #eef1f3, #ffffff);
+      color: var(--azul);
+    }
+
+    .container {
+      max-width: 430px;
+      margin: auto;
+      min-height: 100vh;
+      background: var(--blanco);
+      box-shadow: 0 0 30px rgba(0,0,0,0.12);
+    }
+
+    .hero {
+      background: linear-gradient(135deg, var(--azul), var(--azul-oscuro));
+      color: var(--blanco);
+      text-align: center;
+      padding: 38px 24px 32px;
+      border-bottom-left-radius: 35px;
+      border-bottom-right-radius: 35px;
+    }
+
+    .logo-circle {
+      width: 110px;
+      height: 110px;
+      margin: 0 auto 18px;
+      border-radius: 50%;
+      border: 3px solid var(--blanco);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 46px;
+      font-weight: bold;
+    }
+
+    h1 {
+      font-size: 30px;
+      letter-spacing: 1px;
+      margin-bottom: 6px;
+    }
+
+    .subtitle {
+      font-size: 14px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      opacity: 0.9;
+    }
+
+    .profile {
+      padding: 28px 24px 10px;
+      text-align: center;
+    }
+
+    .profile h2 {
+      font-size: 27px;
+      margin-bottom: 6px;
+    }
+
+    .profile p {
+      font-size: 15px;
+      letter-spacing: 1px;
+      color: #53626c;
+      text-transform: uppercase;
+    }
+
+    .tags {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 8px;
+      padding: 18px 20px;
+    }
+
+    .tag {
+      background: #edf1f3;
+      color: var(--azul);
+      padding: 8px 12px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    .section {
+      padding: 22px 26px;
+    }
+
+    .section h3 {
+      font-size: 20px;
+      margin-bottom: 12px;
+      border-left: 4px solid var(--dorado);
+      padding-left: 10px;
+    }
+
+    .section p {
+      font-size: 15px;
+      line-height: 1.6;
+      color: #344854;
+    }
+
+    .highlight {
+      background: linear-gradient(135deg, #132b3a, #0a1b28);
+      color: var(--blanco);
+      margin: 20px 24px;
+      padding: 24px;
+      border-radius: 22px;
+      text-align: center;
+    }
+
+    .highlight h3 {
+      font-size: 23px;
+      margin-bottom: 12px;
+      color: var(--blanco);
+    }
+
+    .highlight p {
+      font-size: 15px;
+      line-height: 1.6;
+      color: #e8eef1;
+    }
+
+    .services {
+      display: grid;
+      gap: 12px;
+      margin-top: 14px;
+    }
+
+    .service {
+      background: #f5f7f8;
+      padding: 14px 16px;
+      border-radius: 14px;
+      font-size: 14px;
+      color: #263b48;
+      font-weight: bold;
+    }
+
+    .buttons {
+      padding: 20px 24px 34px;
+      display: grid;
+      gap: 14px;
+    }
+
+    .btn {
+      display: block;
+      text-decoration: none;
+      text-align: center;
+      padding: 16px;
+      border-radius: 16px;
+      font-weight: bold;
+      letter-spacing: 0.5px;
+      transition: 0.3s;
+    }
+
+    .btn-primary {
+      background: var(--azul);
+      color: var(--blanco);
+    }
+
+    .btn-secondary {
+      background: #edf1f3;
+      color: var(--azul);
+      border: 1px solid #d7dde1;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+      opacity: 0.92;
+    }
+
+    .quote {
+      margin: 10px 24px 30px;
+      padding: 20px;
+      border-radius: 18px;
+      background: #f7f7f7;
+      font-style: italic;
+      text-align: center;
+      color: #344854;
+      line-height: 1.5;
+    }
+
+    footer {
+      background: var(--azul);
+      color: var(--blanco);
+      text-align: center;
+      padding: 18px;
+      font-size: 13px;
+      letter-spacing: 1px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <main class="container">
+
+    <section class="hero">
+      <div class="logo-circle">⚖</div>
+      <h1>LEGAL SHIELD</h1>
+      <p class="subtitle">Protección Legal Estratégica</p>
+    </section>
+
+    <section class="profile">
+      <h2>Lic. Osiris Rodas</h2>
+      <p>Consultor Legal</p>
+    </section>
+
+    <section class="tags">
+      <span class="tag">Prevención</span>
+      <span class="tag">Asesoría</span>
+      <span class="tag">Protección</span>
+      <span class="tag">Empresarial</span>
+    </section>
+
+    <section class="section">
+      <h3>¿Qué es Legal Shield?</h3>
+      <p>
+        Legal Shield es un programa integral de protección legal diseñado para
+        ayudar a las empresas a prevenir riesgos, fortalecer sus procesos internos
+        y reducir contingencias laborales, contractuales y corporativas.
+      </p>
+    </section>
+
+    <section class="highlight">
+      <h3>Proyecto Cero Liquidaciones</h3>
+      <p>
+        Estrategia preventiva enfocada en documentar, estructurar y blindar
+        correctamente la relación laboral, con el objetivo de evitar conflictos
+        costosos y proteger jurídicamente a la empresa desde la raíz.
+      </p>
+    </section>
+
+    <section class="section">
+      <h3>Servicios Estratégicos</h3>
+
+      <div class="services">
+        <div class="service">⚖ Derecho laboral empresarial</div>
+        <div class="service">📄 Contratos y reglamentos internos</div>
+        <div class="service">🛡 Blindaje jurídico corporativo</div>
+        <div class="service">📊 Auditorías de cumplimiento</div>
+        <div class="service">🏢 Estrategias REPSE</div>
+        <div class="service">🔐 Privacidad y protección de información</div>
+        <div class="service">⚡ Atención legal inmediata</div>
+      </div>
+    </section>
+
+    <div class="quote">
+      “Las empresas sólidas no reaccionan a los problemas;
+      los previenen antes de que existan.”
+    </div>
+
+    <section class="buttons">
+      <a class="btn btn-primary" href="https://wa.me/525576194901" target="_blank">
+        Contactar por WhatsApp
+      </a>
+
+      <a class="btn btn-secondary" href="https://legalshield.mx" target="_blank">
+        Visitar sitio web
+      </a>
+
+      <a class="btn btn-secondary" href="tel:+525576194901">
+        Llamar ahora
+      </a>
+
+      <a class="btn btn-secondary"
+         href="data:text/vcard;charset=utf-8,BEGIN:VCARD%0AVERSION:3.0%0AFN:Lic.%20Osiris%20Rodas%0ATEL:+525576194901%0AORG:Legal%20Shield%0ATITLE:Consultor%20Legal%0AURL:https://legalshield.mx%0AEND:VCARD"
+         download="Osiris_Rodas_Legal_Shield.vcf">
+        Guardar contacto
+      </a>
+    </section>
+
+    <footer>
+      LEGALSHIELD.MX · 55 7619 4901
+    </footer>
+
+  </main>
+
+</body>
+</html>
